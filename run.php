@@ -15,7 +15,7 @@ $dotenv->load();
 
 $headers = [
     'User-Agent'    => 'hq-viewer/1.2.4 (iPhone; iOS 11.1.1; Scale/3.00)',
-    'Authorization' => 'Bearer ' . getenv('HQ_BEARER_TOKEN'),
+    'Authorization' => getenv('HQ_BEARER_TOKEN'),
     'x-hq-client'   => 'iOS/1.2.4 b59',
 ];
 
